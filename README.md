@@ -1,2 +1,19 @@
 # LoRA-finetuning-script-for-NVIDIA-GPUs-with-8GB-vram
-This repository contains the script for LoRA finetuning with NVIDIA GPUs of 8GB vram
+摘要：此python脚本针对8GB显存的英伟达GPU进行了优化，从而使消费级别显卡用户得以使用本地设备进行LoRA微调  
+
+注意事项：  
+  
+1.在运行训练脚本前，请先确认您的虚拟环境（.venv）中安装了必要的库。如果是全新的虚拟环境，在运行训练脚本之前务必先运行lib_download.py脚本以确保环境完整性。  
+2.确保机载内存（RAM）至少为32GB，磁盘上的可用空间至少应为原始模型的三倍。其中，C盘的可用空间应大于原始模型大小。  
+3.合并LoRA权重后的模型采用分片存储的策略，在后续操作中请确保选择完整的合并后模型文件夹以确保完整性。  
+4.此脚本仅在Windows10/11平台进行验证，其他操作系统对此的支持未知。  
+
+声明：  
+
+此脚本的开发过程使用了生成式AI。  
+
+展望：  
+
+希望在不久的将来，个性化模型不再遥不可及，而是以较低的成本与门槛普及到生产生活中，让科技进步的成果惠及广大人民群众。
+
+
