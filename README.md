@@ -35,7 +35,7 @@ Notes:
 
 Declaration:
 
-This script was developed using generative AI.  
+This script was developed with generative AI.  
   
 Project Vision:
 
