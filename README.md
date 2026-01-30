@@ -13,8 +13,31 @@
 
 此脚本的开发过程使用了生成式AI。  
 
-展望：  
+项目愿景：  
 
-希望在不久的将来，个性化模型不再遥不可及，而是以较低的成本与门槛普及到生产生活中，让科技进步的成果惠及广大人民群众。
+个性化AI模型不再遥不可及，科技发展成果惠及全体人民
 
+===========================================================================================
+
+Abstract: This Python script is optimized for NVIDIA GPUs with 8GB of VRAM, enabling consumer-grade graphics card users to fine-tune LoRA on their local devices.
+
+Notes:
+
+1. Before running the training script, please ensure you have created a virtual environment (.venv) and installed the necessary libraries. If it's a brand new virtual environment, be sure to run the lib_download.py script before running the training script to ensure environment integrity.
+
+2. Ensure your onboard memory (RAM) is at least 32GB, and the available disk space should be at least three times the size of the original model. The available space on your C drive should be larger than the original model size.
+
+3. The model after merging LoRA weights uses a sharded storage strategy. In subsequent operations, please ensure you select the complete merged model folder to ensure integrity.
+
+4. This script has only been validated on Windows 10/11 platforms; support for other operating systems is unknown.
+
+5. For stability, please use the Python 3.11 interpreter.
+
+Declaration:
+
+This script was developed with generative AI.
+
+Project Vision:
+
+Personalized AI models will no longer be out of reach, and the fruits of technological advancement will benefit all people.
 
