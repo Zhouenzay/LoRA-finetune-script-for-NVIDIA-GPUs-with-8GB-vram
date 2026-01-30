@@ -1,4 +1,4 @@
-# LoRA-finetuning-script-for-NVIDIA-GPUs-with-8GB-vram
+# LoRA-finetune-script-for-NVIDIA-GPUs-with-8GB-vram
 摘要：此python脚本针对8GB显存的英伟达GPU进行了优化，从而使消费级别显卡用户得以使用本地设备进行LoRA微调  
 
 注意事项：  
