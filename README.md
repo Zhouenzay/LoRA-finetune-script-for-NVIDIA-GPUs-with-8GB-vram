@@ -15,7 +15,7 @@
 
 项目愿景：  
 
-个性化AI模型不再遥不可及，科技发展成果惠及全体人民
+让个性化AI触手可及，让科技发展的成果惠及广大人民群众
 
 ===========================================================================================
 
@@ -35,6 +35,8 @@ Notes:
 
 Declaration:
 
-This script was developed using generative AI. Project Vision:
+This script was developed using generative AI.  
+  
+Project Vision:
 
 Personalized AI models will no longer be out of reach, and the fruits of technological advancement will benefit all people.
