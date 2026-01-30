@@ -23,15 +23,15 @@ Summary: This Python script is optimized for NVIDIA GPUs with 8GB of VRAM, allow
 
 Notes:
 
-1. Before running the training script, ensure you have created a virtual environment (.venv) and installed the necessary libraries. Run lib_download.py before running the training script to ensure environment integrity.
+1.Before running the training script, ensure you have created a virtual environment (.venv) and installed the necessary libraries. Run lib_download.py before running the training script to ensure environment integrity.
 
-2. Ensure at least 32GB of onboard RAM and at least three times the available disk space of the original model. The C drive should have more available space than the original model size.
+2.Ensure at least 32GB of onboard RAM and at least three times the available disk space of the original model. The C drive should have more available space than the original model size.
 
-3. The model after merging LoRA weights uses a sharded storage strategy. In subsequent operations, ensure you select the complete merged model folder to ensure integrity.
+3.The model after merging LoRA weights uses a sharded storage strategy. In subsequent operations, ensure you select the complete merged model folder to ensure integrity.
 
-4. This script has only been validated on Windows 10/11 platforms; support for other operating systems is unknown.
+4.This script has only been validated on Windows 10/11 platforms; support for other operating systems is unknown.
 
-5. For stability, please use the Python 3.11 interpreter.
+5.For stability, please use the Python 3.11 interpreter.
 
 Declaration:
 
